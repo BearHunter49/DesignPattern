@@ -23,4 +23,12 @@ fun main() {
     println("---Basic + Fire + Poison Slime---")
     awesomeSlime.attack()
     println(awesomeSlime.getAttackPower())
+    println()
+
+    val poisonCuteSlime = PoisonCuteSlime(basicSlime)
+    println("---Basic + Poison Cute Slime---")
+    poisonCuteSlime.attack()
+    poisonCuteSlime.beFriends()
+    println(poisonCuteSlime.getAttackPower())
+
 }
