@@ -4,7 +4,7 @@ fun main() {
     val sword: Weapon = Sword()
     sword.attack()
 
-    val tempWeapon: Weapon = WeaponAdapter(Rod())
+    val tempWeapon: Weapon = WeaponAdapter(Ball())
     tempWeapon.attack()
 
 }

@@ -1,7 +1,7 @@
 package adapter
 
-class WeaponAdapter(private val alternativeWeapon: Rod) : Weapon {
+class WeaponAdapter(private val alternativeWeapon: Ball) : Weapon {
     override fun attack() {
-        alternativeWeapon.brandish()
+        alternativeWeapon.throwing()
     }
 }
