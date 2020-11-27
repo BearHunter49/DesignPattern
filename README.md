@@ -1,2 +1,2 @@
 # DesignPattern
-Implementation Design Pattern using Kotlin
+Implementation design pattern using Kotlin
